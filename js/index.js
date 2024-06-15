@@ -50,6 +50,7 @@ function slidesShow(n) {
 
         slides.forEach((slide) => {
                 slide.classList.add('hide');
+		slide.classList.add('fade')
         });
 
         slides[slideIndex - 1].classList.remove('hide');
